@@ -20,10 +20,12 @@ DEBUG = os.getenv('DEBUG',False,)
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 ALLOWED_HOSTS = [
+    'qc-calculator.onrender.com',
     'localhost',
     '127.0.0.1',
     '.onrender.com',  # Allow all Render subdomains
     '.your-custom-domain.com'  # If you have a custom domain
+    '192.168.43.101',
 ]
 
 
