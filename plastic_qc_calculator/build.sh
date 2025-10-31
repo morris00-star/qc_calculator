@@ -6,6 +6,8 @@ set -o errexit
 # cd plastic_qc_calculator
 
 # Install dependencies
+pip install --upgrade pip
+
 pip install -r requirements.txt
 
 # Collect static files
