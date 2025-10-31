@@ -3,6 +3,8 @@
 
 set -o errexit
 
+cd plastic_qc_calculator
+
 # Install dependencies
 pip install -r requirements.txt
 
